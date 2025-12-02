@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-op-layout-mode='root-scrollable'>
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -13,6 +13,13 @@
     <title>Optics Layout 2.0</title>
   </head>
   <body>
+    <div class="alert alert--notice alert--outlined alert--flash">
+      <span class="material-symbols-outlined icon alert__icon">check</span>
+      <div class="alert__messages">
+        <div class="alert__title">Success</div>
+        <div class="alert__description">Flash Messages still show correctly!</div>
+      </div>
+    </div>
     <div class="op-page">
       <div class="op-page__body">
         <div class="op-page__sidebar">
@@ -90,7 +97,6 @@
               </div>
             </div>
           </div>
-
           <div class="op-page__main-content">
             <p>asdasdntent</p>
             <p>asdasdntent</p>
@@ -135,12 +141,12 @@
           </div>
           <div class="op-page__main-footer">
             <div class="demo-footer">
-              <div class="alert alert--notice alert--outlined">
-                <span class="material-symbols-outlined icon alert__icon">check</span>
+              <div class="alert alert--info alert--muted">
+                <span class="material-symbols-outlined icon alert__icon">info</span>
                 <div class="alert__messages">
-                  <div class="alert__title">Success</div>
+                  <div class="alert__title">Footer</div>
                   <div class="alert__description">
-                    This is an example of an alert in the footer!
+                    This is an example of an info alert in the footer!
                   </div>
                 </div>
               </div>
