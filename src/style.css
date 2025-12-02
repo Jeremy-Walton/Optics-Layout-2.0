@@ -106,9 +106,11 @@
 
 /* --op-breakpoint-small */
 @media (width < 768px) {
-  .op-page {
-    .op-page__sidebar {
-      display: none;
+  :root[data-op-layout-mode='root-scrollable'] {
+    .op-page {
+      .op-page__sidebar {
+        display: none;
+      }
     }
   }
 }
